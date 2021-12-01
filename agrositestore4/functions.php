@@ -48,6 +48,11 @@ require get_template_directory() . '/includes/template-functions.php';
 require get_template_directory() . '/includes/customizer.php';
 
 /**
+ * Navigation.
+ */
+require get_template_directory() . '/includes/navigation.php';
+
+/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
@@ -104,14 +109,6 @@ function my_css() {
     </style>
     <?php
 }
-
-/*
- * add menu to the themes
- */
-
-register_nav_menus (array(
-    'main_menu' => 'Main menu'
-));
 
 
 /*
