@@ -16,8 +16,8 @@
      * header_parts hook.
      *
      * @hooked estore_header_mobile - 10
-     * @hooked estore_nav_mobile - 20
-     * @hooked estore_text_mobile - 30
+     * @hooked estore_header_nav_mobile - 20
+     * @hooked estore_header_text_mobile - 30
      * @hooked estore_header_desktop - 40
      * @hooked estore_nav_desktop - 50
      *
