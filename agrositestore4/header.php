@@ -22,7 +22,7 @@
      * @hooked estore_nav_desktop - 50
      *
      */
-    do_action('header_parts');
+    do_action('est_header_parts');
     ?>
 
 </header>
